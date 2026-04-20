@@ -18,10 +18,13 @@ export default function ListingDetailsScreen() {
       </View>
       <View style={styles.userContainer}>
         <ListItem
-        title={"Mario Andolini"}
-        image={require("../assets/images/mario.jpg")}
-        subTitle={"2 posts this month"}
-      />
+          title={"Mario Andolini"}
+          image={require("../assets/images/mario.jpg")}
+          subTitle={"2 posts this month"} onPress={function (): void {
+            throw new Error("Function not implemented.");
+          } } renderRightActions={function (): React.ReactNode {
+            throw new Error("Function not implemented.");
+          } }      />
       </View>
       
       {/* <View style={{ flexDirection: "row" }}>
